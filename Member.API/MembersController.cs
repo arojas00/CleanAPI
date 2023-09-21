@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Member.API.Controllers
 {
+    //En esta capa se implementa el API, la caul presenta la información recibida desde las capas internas.
+    //Esta capa depende a todas las capas internas.
     [Route("api/[controller]")]
     [ApiController]
     public class MembersController : ControllerBase

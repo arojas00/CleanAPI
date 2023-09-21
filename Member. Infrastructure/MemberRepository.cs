@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 namespace Member.Infrastructure
 {
+    //En esta capa se implementan los adaptadores de interfaz.
+    //Esta capa referencia a la capa de Entities y Aplications, ya que son las capas internas.
     public class MemberRepository : IMemberRepository
     {
         public static List<Domain.Member> lstMembers = new List<Domain.Member>()
